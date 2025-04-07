@@ -29,6 +29,8 @@ header, main, footer {
     left: 50%;
     transform: translateX(-50%);
     background-color: #ffffffe5;
+    color: var(--secondary-color);
+    padding: 1rem;
 }
 .hero article {
     background-color: #ffffffe5;
