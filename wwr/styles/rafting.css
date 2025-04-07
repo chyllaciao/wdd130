@@ -65,6 +65,7 @@ footer {
 }
 .social {
     grid-column: 3;
+    justify-self: end;
 }
 .social img {
     width: 3em;
