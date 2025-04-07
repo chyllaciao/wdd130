@@ -23,6 +23,9 @@ header, main, footer {
 .hero {
     position: relative;
 }
+.hero>img {
+    width: 100%;
+}
 .hero h1 {
     position: absolute;
     top: 1em;
@@ -31,7 +34,7 @@ header, main, footer {
     background-color: #ffffffe5;
     color: var(--secondary-color);
     padding: 1rem;
-    font-size: 2em;
+    font-size: 3em;
 }
 .hero article {
     background-color: #ffffffe5;
@@ -51,4 +54,17 @@ header, main, footer {
     text-align: center;
     padding: 1rem;
     font-weight: 500;
+}
+
+footer {
+    background-color: #3e3e3e;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 2rem;
+}
+
+.social img {
+    width: 3em;
+    grid-column: 3;
 }
