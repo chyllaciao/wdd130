@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<!-- saved from url=(0073)https://byui-cse.github.io/wdd130-ww-course/grader/w03-project-about.html -->
+<html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WDD 130 | Page Evaluation Tool: W03 – Project About Us</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="https://byui-cse.github.io/cse-ww-program/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="https://byui-cse.github.io/cse-ww-program/favicon-32x32.png">
+  <link rel="icon" type="image/png" href="https://byui-cse.github.io/cse-ww-program/favicon-16x16.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="./WDD 130 _ Page Evaluation Tool_ W03 – Project About Us_files/css2" rel="stylesheet">
+  <link rel="stylesheet" href="./WDD 130 _ Page Evaluation Tool_ W03 – Project About Us_files/course.css">
+  <link rel="stylesheet" href="./WDD 130 _ Page Evaluation Tool_ W03 – Project About Us_files/standards.css">
+  <script src="./WDD 130 _ Page Evaluation Tool_ W03 – Project About Us_files/692a19d31f48cd0e_complete.js.download" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="page">
+      <h1>WDD 130<span id="coursetitle">: Web Fundamentals</span></h1>
+      <img src="./WDD 130 _ Page Evaluation Tool_ W03 – Project About Us_files/byui-logo.svg" alt="BYU-I logo" class="logo">
+    </div>
+  </header>
+  <main class="page">
+    <nav>
+      <span><a href="https://byui-cse.github.io/wdd130-ww-course/">Home</a></span>
+      <span><a href="https://byui-cse.github.io/wdd130-ww-course/week01/">W1</a></span>
+      <span><a href="https://byui-cse.github.io/wdd130-ww-course/week02/">W2</a></span>
+      <span class="active"><a href="https://byui-cse.github.io/wdd130-ww-course/week03/">W3</a></span>
+      <span><a href="https://byui-cse.github.io/wdd130-ww-course/week04/">W4</a></span>
+      <span><a href="https://byui-cse.github.io/wdd130-ww-course/week05/">W5</a></span>
+      <span><a href="https://byui-cse.github.io/wdd130-ww-course/week06/">W6</a></span>
+      <span><a href="https://byui-cse.github.io/wdd130-ww-course/week07/">W7</a></span>
+    </nav>
+
+    <h2>Page Evaluation Tool: <span class="highlight">W03 – Project About Us Page</span></h2>
+    <div class="callout reference">
+      <label for="student">Enter your GitHub Username: </label>
+      <input type="text" id="student" placeholder="GitHub Username ONLY" required="" title="GitHub Username Required">
+      <button type="submit" id="getReport">Get Report</button>
+    </div>
+
+    <div id="report">
+      <div class="callout warning smaller">
+        ⚠️ A trailing slash on void elements has no effect and interacts badly with unquoted attribute values in HTML. Do not use a trailing slash for <a href="https://developer.mozilla.org/en-US/docs/Glossary/Void_element" target="_blank">void elements</a>.
+      </div>
+
+      <main>
+
+      <h3>w3.org Validation Tools</h3>
+      <div class="label">HTML</div>
+      <div class="data" id="hvalid">✅</div>
+      <div class="standard"> <span class="blue" id="htmlerrorscount">Errors: 0</span> <a href="https://validator.w3.org/check?verbose=1&amp;uri=chyllaciao.github.io/wdd130/wwr/about.html" target="_blank">🔗 HTML Validation Link</a>
+      </div>
+
+      <div class="label">CSS</div>
+      <div class="data" id="cvalid">✅</div>
+      <div class="standard"><span class="blue" id="csserrorscount">Errors: 0</span> <a href="https://jigsaw.w3.org/css-validator/validator?uri=chyllaciao.github.io/wdd130/wwr/about.html" target="_blank">🔗 CSS Validation Link</a>
+      </div>
+
+      <h3>HTML Document</h3>
+      <div class="label">Document Type:</div>
+      <div class="data">✅</div>
+      <div class="standard">&lt;!DOCTYPE html&gt; or &lt;!doctype html&gt; <span class="blue">This should be on the first line.</span></div>
+
+      <div class="label">HTML Lang Attribute:</div>
+      <div class="data">✅</div>
+      <div class="standard">&lt;html lang="en-US"&gt; <span class="blue">Encases the entire document</span></div>
+
+      <div class="label">&lt;head&gt; element</div>
+      <div class="data">✅</div>
+      <div class="standard">&lt;head&gt; ... &lt;/head&gt; <span class="blue">Start tag and end tag before the &lt;body&gt; element</span></div>
+
+      <div class="label">&lt;body&gt; element</div>
+      <div class="data">✅</div>
+      <div class="standard">&lt;body&gt; ... &lt;/body&gt; <span class="blue">Closes before the closing &lt;/html&gt; element</span></div>
+
+      <h3>&lt;head&gt; Elements</h3>
+      <div class="label">Meta Charset:</div>
+      <div class="data">✅</div>
+      <div class="standard"><span class="blue">&lt;meta charset="UTF-8"&gt;</span></div>
+
+      <div class="label">Meta Viewport:</div>
+      <div class="data">✅</div>
+      <div class="standard">&lt;meta name="viewport" content="width=device-width,initial-scale=1.0"&gt;</div>
+
+      <div class="label">Title:</div>
+      <div class="data">👀</div>
+      <div class="standard">❝About Us | Amata Churchill Rafting Company❞<span class="blue">Review: Contains "About" or "About Us" and rafting company name, e.g., "About Us - Dry Oar Rafting"</span></div>
+
+      <div class="label">Meta Description:</div>
+      <div class="data">👀</div>
+      <div class="standard">❝This page is all about Rafting and every other necessary things needed for Rafting❞ <span class="blue">Is this description of the page relevant and appropriate in describing the purpose and content of the page?"</span></div>
+
+      <div class="label">Meta Author:</div>
+      <div class="data">✅</div>
+      <div class="standard">❝Amata Churchill❞</div>
+
+    <h3>&lt;body&gt; Elements</h3>
+
+      <div class="label">&lt;header&gt;</div>
+      <div class="data">✅</div>
+      <div class="standard"><span class="blue">The &lt;header&gt; ... &lt;/header&gt; must be within the &lt;body&gt;.</span></div>
+
+      <div class="label">&lt;nav&gt;</div>
+      <div class="data">✅</div>
+      <div class="standard"><span class="blue">The &lt;nav&gt; ... &lt;/nav&gt; must be within the &lt;header&gt;.</span></div>
+
+      <div class="label">&lt;a&gt;</div>
+      <div class="data">✅</div>
+      <div class="standard">found 7 / out of 4 required<span class="blue">All main navigation anchors must be within the &lt;nav&gt;</span></div>
+
+      <div class="label">&lt;a href=""&gt;</div>
+      <div class="data">✅</div>
+      <div class="standard"><span class="blue">Four &lt;a&gt; href="" values are index.html, about.html, trips.html, and contact.html</span></div>
+
+      <div class="label">&lt;main&gt;</div>
+      <div class="data">✅</div>
+      <div class="standard"><span class="blue">&lt;main&gt; ... &lt;/main&gt; is after the &lt;/header&gt; and before the &lt;footer&gt; </span></div>
+
+      <div class="label">&lt;h1&gt;</div>
+      <div class="data">✅</div>
+      <div class="standard">❝Churchill Rafting Company❞ <span class="blue">Title of rafting company.</span></div>
+
+      <div class="label">&lt;section&gt;</div>
+      <div class="data">✅</div>
+      <div class="standard">2 found out of 2 required</div>
+
+      <div class="label">&lt;h2&gt;</div>
+      <div class="data">✅</div>
+      <div class="standard">2 found out 2 required</div>
+
+      <div class="label">&lt;img&gt;</div>
+      <div class="label"></div>
+      <div class="standard">
+        ✅ - At least 10 images are required.
+        <span class="blue">Image Check:<br> All image files must be optimized for the web (&lt;= 100 kB) and correctly referenced.</span>
+        <span id="imagesizes">&nbsp;✅ - images/z-boat.png - 37.2 kB<br>&nbsp;✅ - images/z-crossedoars (1).jpeg - 9.0 kB<br>&nbsp;✅ - images/z-raftingbw.png - 24.0 kB<br>&nbsp;✅ - images/z-splash.png - 38.4 kB<br>&nbsp;✅ - images/z-dryoarlogo.png - 9.2 kB<br>&nbsp;✅ - images/z-excitingexpedition.jpg - 12.8 kB<br>&nbsp;✅ - images/z-rapids-trees.jpg - 59.4 kB<br>&nbsp;✅ - images/app_facebook_logo_media_popular_social_icon.htm - 17.7 kB<br>&nbsp;✅ - images/twitter-bird.webp - 2.2 kB<br>&nbsp;✅ - images/2018_social_media_popular_app_logo_facebook-64.webp - 0.9 kB<br></span>
+      </div>
+
+      <div class="label">&lt;footer&gt;</div>
+      <div class="data">✅</div>
+      <div class="standard"></div>
+
+      <div class="label">Page Structure</div>
+      <div class="data">✅</div>
+      <div class="standard"><span class="blue">header-nav, main, footer</span></div>
+
+      <h3>CSS</h3>
+      <div class="label">CSS Files</div>
+      <div class="data">✅</div>
+      <div class="standard">styles/rafting.css<br>https://fonts.googleapis.com/css2?family=merriweather:wght@400;700;900&amp;family=Roboto:wght@400;700&amp;display=swap<br> <span class="blue">Located in styles directory and named rafting.css and a Google Font API reference using the two preconnect links as provided by Google Fonts.</span></div>
+
+      <div class="label">No Embedded/Inline</div>
+      <div class="data">✅</div>
+      <div class="standard"><span class="blue">Embedded (&lt;style&gt;) or inline styles (style=") are not permitted in this class.</span></div>
+
+      <div class="label">Selectors</div>
+      <div class="data">✅</div>
+      <div class="standard">20 | Repeated Selectors: 1 <span class="blue">There should be no more than 100 selectors used if that. There should be very few repeated selectors.</span></div>
+
+
+    </main></div>
+
+    <div class="callout warning" id="message">
+      <span class="smaller">If you do not get a report, verify the following:
+        <ul class="check">
+          <li>You entered just your GitHub account username only.</li>
+          <li>You have a "<code>wwr</code>" folder in your <code>wdd130</code> repository.</li>
+          <li>You have a "<code>about.html</code>" file in your <code>wwr</code> folder.</li>
+          <li>Do not end any CSS file with a code <strong>comment</strong>.</li>
+
+        </ul>
+        <p class="callout reference">
+          Here is an example of what your structure should look like as a reference:<br>
+          <code class="plaintext">https://<em>githubusername</em>.github.io/wdd130/wwr/about.html</code>
+        </p>
+
+      </span>
+    </div>
+  </main>
+
+  <footer>
+    <p>Copyright © Brigham Young University-Idaho | All rights reserved</p>
+  </footer>
+  <script src="./WDD 130 _ Page Evaluation Tool_ W03 – Project About Us_files/w03-project-about.js.download"></script>
+
+
+</body></html>
