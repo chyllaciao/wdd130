@@ -25,7 +25,7 @@ header, main, footer {
     position: relative;
 }
 .hero>img {
-    width: 100%;
+    width: 20%;
 }
 .hero h1 {
     position: absolute;
