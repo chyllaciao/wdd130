@@ -17,7 +17,7 @@ a {
     text-decoration: none
 }
 header, main, footer {
-    flex-direction: flex-end;
+    flex-flow: flex-end;
     grid-column-end: auto;
     max-width: 1000px;
     margin: 0 auto
