@@ -19,36 +19,6 @@ a {
 header, main, footer {
     max-width: 1000px;
     margin: 0 auto
-.header {
-    display: grid;
-    grid-template-columns: auto 1fr; /* Logo column auto-sized, nav column takes remaining space */
-    align-items: center; /* Centers logo and nav vertically */
-    padding: 10px;
-    background-color: #f4f4f4; /* Optional: Header background */
-}
-    
-.logo {
-    font-size: 1.5em; /* Optional: Logo styling */
-    font-weight: bold;
-}
-    
-.nav {
-    display: grid;
-    grid-template-columns: repeat(4, auto); /* Creates horizontal layout for nav links */
-    gap: 15px; /* Adds spacing between links */
-}
-    
-.nav a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-    
-.nav a:hover {
-    color: #0078d4; /* Optional: Hover effect for links */
-}
-}
 .hero {
     position: relative;
 }
