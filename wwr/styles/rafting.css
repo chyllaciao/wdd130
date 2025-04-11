@@ -5,17 +5,20 @@ header {
 	align-items: center;
 	border-bottom: 1px solid #ccc;
 	max-width: 1000px;
+    justify-content: space-around;
 }
 
 .logo img {
 	margin: 0 0.25rem 0 1rem;
 	width: 64px;
 	height: auto;
+    justify-content: space-around;
 }
 
 h1 {
 	font-size: 2rem;
 	font-family: Acme, Arial, sans-serif;
+    justify-content: space-around;
 }
 
 .navigation {
@@ -24,10 +27,12 @@ h1 {
 	list-style: none;
 	padding: 0;
 	font-family: Arial, sans-serif;
+    justify-content: space-around;
 }
 
 .navigation li {
 	flex: 1 1 auto;
+    justify-content: space-around;
 }
 
 .navigation a {
@@ -36,16 +41,19 @@ h1 {
 	padding: 20px;
 	text-decoration: none;
 	font-size: 1.2rem;
+    justify-content: space-around;
 }
 
 .navigation a:hover {
 	color: tomato;
 	font-weight: 700;
 	text-decoration: underline;
+    justify-content: space-around;
 }
 
 body {
 	font-family: Acme, Arial, sans-serfi;
+    justify-content: space-around;
 }
 
 article {
@@ -55,7 +63,5 @@ article {
 	background-color: #ace;
 	width: min(600px, 100%);
 	font-size: 1.2rem;
-}
-.section h2 {
     justify-content: space-around;
 }
