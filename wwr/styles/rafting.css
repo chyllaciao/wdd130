@@ -1,66 +1,66 @@
 header {
-	margin: 1rem auto;
-	display: grid;
-	grid-template-columns: 120px 1fr 1fr;
-	align-items: center;
-	border-bottom: 1px solid #ccc;
-	max-width: 1000px;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
 }
 
 .logo img {
-	margin: 0 0.50rem 0 1rem;
-	width: 64px;
-	height: auto;
+    margin: 0 0.50rem 0 1rem;
+    width: 64px;
+    height: auto;
     align-items: self-end;
 }
 
 h1 {
-	font-size: 2rem;
-	font-family: Acme, Arial, sans-serif;
+    font-size: 2rem;
+    font-family: Acme, Arial, sans-serif;
     justify-content: center;
 }
 
 .navigation {
-	display: flex;
-	flex-wrap: wrap;
-	list-style: none;
-	padding: 0;
-	font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    font-family: Arial, sans-serif;
     justify-content: space-around;
 }
 
 .navigation li {
-	flex: 1 1 auto;
+    flex: 1 1 auto;
     justify-content: space-around;
 }
 
 .navigation a {
-	display: block;
-	color: navy;
-	padding: 20px;
-	text-decoration: none;
-	font-size: 1.2rem;
+    display: block;
+    color: navy;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
     justify-content: space-around;
 }
 
 .navigation a:hover {
-	color: tomato;
-	font-weight: 700;
-	text-decoration: underline;
+    color: tomato;
+    font-weight: 700;
+    text-decoration: underline;
     justify-content: space-around;
 }
 
 body {
-	font-family: Acme, Arial, sans-serfi;
+    font-family: Acme, Arial, sans-serfi;
     justify-content: space-around;
 }
 
 article {
-	margin: 1em auto;
-	border: 1px solid rgb(0 0 0 / 0.1);
-	padding: 1em;
-	background-color: #ace;
-	width: min(600px, 100%);
-	font-size: 1.2rem;
+    margin: 1em auto;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    padding: 1em;
+    background-color: #ace;
+    width: min(600px, 100%);
+    font-size: 1.2rem;
     justify-content: space-around;
 }
